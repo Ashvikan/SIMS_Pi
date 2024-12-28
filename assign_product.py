@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import pymongo
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb://192.168.8.200:27017/")
+client = pymongo.MongoClient("mongodb://100.80.105.53:27017/")
 db = client["SIMS"]  # Database name
 rfid_collection = db["rfid_mapping"]  # Collection for RFID-product mappings
 
