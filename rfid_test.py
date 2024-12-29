@@ -4,7 +4,7 @@ from mfrc522 import SimpleMFRC522
 from pymongo import MongoClient
 
 # Configuration
-MQTT_BROKER = "100.80.105.53"  # Update with your actual IP
+MQTT_BROKER = "100.80.105.53"  # Update with your tailscalr IP
 MQTT_PORT = 1883
 MQTT_TOPIC = "rfid/scan"
 MONGO_URI = "mongodb://100.80.105.53:27017/"  # Update with Tailscale IP
